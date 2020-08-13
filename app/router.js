@@ -7,4 +7,6 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function() {
+  this.mount('in-app-blog', {path: "blog"});
+  this.mount('external-admin', {path: "admin"});
 });
